@@ -1,0 +1,101 @@
+@import 'reset.css';
+
+body, html {
+    font-family: "Helvetica Neue";
+    max-width: 1980px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background: black;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+
+.title, .message {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.message {
+    font-size: 24px;
+}
+
+.current-employees-container {
+    width: 90%;
+    border: 2px solid darkblue;
+    margin: 20px auto;
+}
+
+.ce-title, .if-title {
+    background: darkblue;
+    color: white;
+    padding: 5px 20px;
+}
+
+#employee-table {
+    width: 100%;
+    margin: auto;
+}
+
+.input-form-container {
+    width: 90%;
+    border: 2px solid darkblue;
+    margin: 20px auto;
+}
+
+.input-form {
+    padding: 20px;
+}
+
+.input-title {
+    margin: 5px auto;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.input {
+    padding: 5px 10px;
+    line-height: 16px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.submit-button {
+    width: 110px;
+    height: 40px;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+.submit-button:focus {
+    outline: 0;
+}
+
+tr {
+    border-top: 2px solid lightgray;
+}
+tr:nth-child(even) {
+    background: lightblue;
+}
+
+td {
+    text-align: center;
+}
+
+th, td {
+    padding: 5px 0;
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+}
